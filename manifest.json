@@ -1,0 +1,10 @@
+{
+  "name": "Isthereanydeal Lookup",
+  "version": "1.0",
+  "description": "Lookup video game names on Isthereanydeal.com",
+  "manifest_version": 3,
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
